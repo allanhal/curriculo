@@ -7,7 +7,7 @@ app.controller('tableController', function ($scope, $http) {
         $scope.pedidoFormChanged = true;
     };
 
-    var urlRoot = "https://quiet-crag-78158.herokuapp.com/api/pedido";
+    var urlRoot = "https://rest-on-demand.herokuapp.com/api/pedido";
     $scope.editPedido = function (pedido) {
         if ($scope.pedidoFormChanged) {
             //
@@ -74,7 +74,7 @@ app.controller('tableController', function ($scope, $http) {
 
     $scope.refreshPedidos = function () {
         $scope.pedidoFormChanged = false
-        $http.get('https://quiet-crag-78158.herokuapp.com/api/pedido').
+        $http.get(urlRoot).
             then(function (response) {
                 $scope.pedidos = response.data;
             });
