@@ -1,0 +1,64 @@
+//
+// http://www.objgen.com
+//
+
+
+
+home
+  homeImageLargeUrl = https://scontent.ffor8-2.fna.fbcdn.net/v/t1.0-9/21617869_1838765962805510_1525829372573023391_n.jpg?oh=5047a43081984f32240718124bba4dea&oe=5A4320D0
+  homeLegend = Esse cara sou eu.
+
+resume
+  profile
+    name = Allan Araújo Pinheiro
+    lead = Desenvolvedor Full-Stack
+    address = Fortaleza/CE - Aldeota
+    phone = +55 (85) 987-277-831
+    email = allan.hal@gmail.com
+
+  topic[0]
+    title = SOBRE
+    text = Sou um programador full-stack (java / javascript) com bastante experiência em plataformas móveis (android / ios).
+
+  topic[1]
+    title = HABILIDADES TÉCNICAS
+    skill[0]
+      title = Java
+      value = 80
+    skill[1]
+      title = Javascript
+      value = 80
+    skill[2]
+      title = Objective-C
+      value = 80
+    skill[3]
+      title = C#
+      value = 80
+    skill[4]
+      title = SQL
+      value = 80
+  topic[2]
+    title = HABILIDADES PESSOAIS
+    skill[0]
+      title = Comunicação com Cliente
+      value = 80
+    skill[1]
+      title = Delegação
+      value = 80
+    skill[2]
+      title = Empreendedorismo
+      value = 80
+    skill[3]
+      title = Vendas
+      value = 80
+  topic[3]
+    title = FORMACOES
+    topic[0]
+      title = UNIFOR 
+      text = Cursando Graduação em Ciências da Computação Faltando 1 cadeira para terminar.
+    topic[1]
+      title = IBEU
+      text = Inglês: Avançado (Curso completo)
+    topic[2]
+      title = OCJP
+      text = Oracle Certified Professional, Java 6 Programmer (antiga SCJP 6)
