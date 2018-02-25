@@ -7,7 +7,9 @@ app.config(['$locationProvider', function ($locationProvider) {
 app.config(function ($routeProvider) {
     $routeProvider
         .when('/', {
-            templateUrl: 'pages/home.html',
+            // templateUrl: 'pages/home.html',
+            // controller: 'mainController'
+            templateUrl: 'pages/personal.html',
             controller: 'mainController'
         })
         .when('/resume', {
